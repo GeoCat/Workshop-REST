@@ -1,0 +1,46 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="ATTRIBUTE_LABEL">PHIHOX_M_sl1</MDI>
+    <MDI key="ATTRIBUTE_MEASUREMENT_RESOLUTION">1</MDI>
+    <MDI key="ATTRIBUTE_TITLE">Soil pH x 10 in H2O  at depth 0.00 m</MDI>
+    <MDI key="ATTRIBUTE_UNITS_OF_MEASURE">index*10</MDI>
+    <MDI key="CITATION_ADDRESS">tom.hengl@isric.org</MDI>
+    <MDI key="CITATION_ORIGINATOR">ISRIC - World Soil Information</MDI>
+    <MDI key="CITATION_URL">http://dx.doi.org/10.1371/journal.pone.0169748</MDI>
+    <MDI key="CONFIDENCE_INTERVAL">M</MDI>
+    <MDI key="DATA_FORMAT">Byte</MDI>
+    <MDI key="DEPTH">0.00 m</MDI>
+    <MDI key="DOWNLOAD_FTP_URL">ftp://ftp.soilgrids.org/data/recent/PHIHOX_M_sl1_250m_ll.tif</MDI>
+    <MDI key="HORIZON_LOWER_DEPTH">0.00 m</MDI>
+    <MDI key="HORIZON_UPPER_DEPTH">0.00 m</MDI>
+    <MDI key="KEYWORD1">pH</MDI>
+    <MDI key="KEYWORD2">acidity</MDI>
+    <MDI key="NO_DATA">255</MDI>
+    <MDI key="PROJECT_URL">http://soilgrids.org</MDI>
+    <MDI key="PUBLICATION_DATE">2017-03-10</MDI>
+    <MDI key="RANGE_DOMAIN_MAXIMUM">110</MDI>
+    <MDI key="RANGE_DOMAIN_MINIMUM">20</MDI>
+    <MDI key="SERIES_NAME">SoilGrids250m</MDI>
+    <MDI key="SLD_NAME">soilgrids250m:PHIHOX</MDI>
+    <MDI key="SLD_URL">ftp://ftp.soilgrids.org/legends/PHIHOX.sld</MDI>
+    <MDI key="TECHNICAL_SPECIFICATIONS_URL">https://github.com/ISRICWorldSoil/SoilGrids250m</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Histograms>
+      <HistItem>
+        <HistMin>38.50961538461539</HistMin>
+        <HistMax>90.49038461538461</HistMax>
+        <BucketCount>52</BucketCount>
+        <IncludeOutOfRange>0</IncludeOutOfRange>
+        <Approximate>1</Approximate>
+        <HistCounts>16|66|119|161|264|473|895|1145|1385|1487|1523|1551|1768|2248|2569|2476|2358|2067|1707|1527|1531|1512|1330|1313|1177|1108|1196|1112|1195|1187|1166|1230|1210|1131|939|779|906|886|947|1372|2183|2409|2238|1011|573|172|45|36|24|6|2|2</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">90</MDI>
+      <MDI key="STATISTICS_MEAN">62.598929555021</MDI>
+      <MDI key="STATISTICS_MINIMUM">39</MDI>
+      <MDI key="STATISTICS_STDDEV">11.549536355663</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

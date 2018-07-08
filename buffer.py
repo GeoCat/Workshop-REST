@@ -6,7 +6,7 @@
 
 from shapely.geometry.point import Point
 from shapely_geojson import dumps, Feature
-p = Point(-8.2918,41.4425,) # (lon,lat) 41.4425° N, 8.2918° W
+p = Point(-8.2918,41.4425) # (lon,lat) 41.4425° N, 8.2918° W
 
 buffer = p.buffer(1.0)
 feature = Feature(buffer, properties={'buffer_extent': '1'})
