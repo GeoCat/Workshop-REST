@@ -1,0 +1,31 @@
+Buffer
+
+Creates a buffer around a given point
+---
+parameters:
+  - name: lon
+    in: query
+    type: number
+    required: true
+    maximum: 180.0
+    minimum: 280.0
+    default: 0.0
+    description: Longitude in (EPSG:4326) as decimal degrees
+  - name: lat
+    in: query
+    type: number
+    required: true
+    default: 0.0
+    description: Latitude in (EPSG:4326) as decimal degrees  
+  - name: range
+    in: query
+    type: number
+    required: true
+    default: 1.0
+    description: Buffer size in decimal degrees
+ 
+produces:
+        -  application/vnd.geo+json
+responses:
+  200:
+    description: GeoJSON with simple feature containing buffer
