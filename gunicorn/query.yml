@@ -1,0 +1,26 @@
+Query
+
+Queries a point in a geotiff
+---
+parameters:
+  - name: lon
+    in: query
+    type: number
+    required: true
+    maximum: 180.0
+    minimum: 280.0
+    default: 0.0
+    description: Longitude in (EPSG:4326) as decimal degrees
+  - name: lat
+    in: query
+    type: number
+    required: true
+    default: 0.0
+    description: Latitude in (EPSG:4326) as decimal degrees  
+
+ 
+produces:
+        -  application/json
+responses:
+  200:
+    description: Simple JSON with value, data souce and time
